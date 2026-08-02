@@ -46,5 +46,5 @@ if ingredients_list:
 
 # New section to display smoothiefroot nutrition information:
 smoothiefroot_response = requests.get("https://my.smoothiefroot.com/api/fruit/watermelon")  
-st.text(shoothiefroot_respons) # 200 if all run ok
+st.text(smoothiefroot_response) # 200 if all run ok
 st.text(smoothiefroot_response.json())
