@@ -1,9 +1,2 @@
-definition_version: 2
-entities:
-  streamlit_app:
-    type: streamlit
-    main_file: Custom Smoothie Orders Form.py
-    artifacts:
-      - pyproject.toml
-      - Custom Smoothie Orders Form.py
-      - .streamlit/config.toml
+streamlit
+snowflake-snowpark-python
